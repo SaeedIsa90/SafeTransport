@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackgroundColor"
+    tools:context="com.androiddevelopments.saeedisa.safetransport.SafeTransportMainActivity">
+
+    <ImageView
+        android:id="@+id/welcomeLogoImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/safe_transport_logo"
+        android:layout_alignParentTop="true"
+        android:layout_margin="30dp"
+        android:layout_centerInParent="true"/>
+
+    <EditText
+        android:id="@+id/userEditView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="UserName"
+        android:textSize="20dp"
+        android:inputType="textPersonName"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/welcomeLogoImageView"
+        android:layout_margin="30dp"/>
+
+    <EditText
+        android:id="@+id/passEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/userEditView"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <CheckBox
+        android:id="@+id/rememberMeCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rememberme"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/passEditText"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/rememberMeCheckBox"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="serif"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/welcomeImageView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/safe_transport_welcome"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/loginButton"/>
+
+</RelativeLayout>
+
