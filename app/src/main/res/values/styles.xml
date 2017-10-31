@@ -7,6 +7,7 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+
     <style name="welcomeStyle">
         <item name="android:text">@string/welcome</item>
         <item name="android:textSize">40sp</item>
@@ -14,5 +15,9 @@
         <item name="android:textStyle">bold|italic</item>
         <item name="android:fontFamily">sans-serif-condensed</item>
     </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>

@@ -16,6 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".TechMenuActivity" />
+        <activity android:name=".TecherStudenActivity"></activity>
     </application>
 
 </manifest>

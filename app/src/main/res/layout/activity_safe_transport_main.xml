@@ -62,7 +62,8 @@
         android:text="Login"
         android:textAllCaps="false"
         android:textSize="20sp"
-        android:textStyle="bold|italic" />
+        android:textStyle="bold|italic"
+        android:onClick="login"/>
 
     <ImageView
         android:id="@+id/welcomeImageView"
